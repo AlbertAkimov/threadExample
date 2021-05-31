@@ -23,6 +23,6 @@ public class Main {
         worker.start();
 
         for(int i = 0; i < 10; i++)
-            blockingQueue.putToQueue(new Task("MyThread - " + i + 1));
+            blockingQueue.putToQueue(new Task());
     }
 }
